@@ -1,8 +1,10 @@
 # Angel's Discord Bot
 
-IN PROGRESS
+## Working functionality
+- /tictactoe - game of tic tac toe vs bot
+- the word ping will respond with pong
 
-SOON TO COME
+## SOON TO COME
 
 IDEAS:
 - Command to link to my github

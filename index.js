@@ -107,13 +107,14 @@ client.on('interactionCreate', async interaction => {
             content: "This spot has already been taken",
             components: makeGrid()
         })
+        return;
     }
 
     tictactoe_state[row][col] = PLAYER
     if(isGameOver()){
         interaction.update({
             content: "Congrats, You Won!!!!",
-            components: makeGrid()
+            components: []
         })
         return;
     }
@@ -137,7 +138,7 @@ client.on('interactionCreate', async interaction => {
     tictactoe_state[botRow][botCol] = BOT;
     if(isGameOver()){
         interaction.update({
-            content: "Congrats, You Won!!!!",
+            content: "Sorry, You lost",
             components: makeGrid()
         })
         return;
