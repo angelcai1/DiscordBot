@@ -9,8 +9,20 @@ client.once('ready', () => {
 client.on('messageCreate', (message) => {
     if (message.author.id === client.user.id) return;
 
-    if (message.content === "ping") {
-        message.reply("pong")
+    if (message.content.toLowerCase() === "about angel") {
+        message.reply("Hi! My name is Angel. I am currently in my last semester (Graduating May 2022) "
+            + "pursuing a degree in Computer Science at Utah State University. My favorite language to code in is python. I can usually be found either at the gym or "
+            + "in my room playing video games.")
+    }
+
+    if (message.content.toLowerCase() === "Angel's Socials") {
+        message.reply(
+          "Instagram:\n"
+        + "https://github.com/angelcai1\n"
+        + "LinkedIn:\n"
+        + "https://www.linkedin.com/in/angel-cai-643023201/"
+        + "GitHub:\n"
+        + "https://github.com/angelcai1"
     }
 })
 
