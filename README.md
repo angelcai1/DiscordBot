@@ -8,6 +8,7 @@ Uses discord's API along with Node.js and JavaScript
 ## Working functionality
 - /tictactoe - game of tic tac toe vs bot
 - "About Angel" will respond with things about me(the creator)
+- "Angel's Links" will respond with my links i.e Github, Instagram, LinkedIn
 
 ### Tic Tac Toe
 
@@ -20,8 +21,6 @@ Uses discord's API along with Node.js and JavaScript
 ## SOON TO COME
 
 IDEAS:
-- Command to link to my github
-- Command to link to my social media i.e instagram, linkedin
-- Games
+- More Games
 - Command that gets Stock Prices from an api
 - Basic math integration

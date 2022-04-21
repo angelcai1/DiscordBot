@@ -15,12 +15,12 @@ client.on('messageCreate', (message) => {
             + "in my room playing video games.")
     }
 
-    if (message.content.toLowerCase() === "angel's socials") {
+    if (message.content.toLowerCase() === "angel's links") {
         message.reply(
           "Instagram:\n"
         + "https://github.com/angelcai1\n"
         + "LinkedIn:\n"
-        + "https://www.linkedin.com/in/angel-cai-643023201/"
+        + "https://www.linkedin.com/in/angel-cai-643023201/\n"
         + "GitHub:\n"
         + "https://github.com/angelcai1")
     }
