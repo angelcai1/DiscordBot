@@ -22,7 +22,7 @@ client.on('messageCreate', (message) => {
         + "LinkedIn:\n"
         + "https://www.linkedin.com/in/angel-cai-643023201/"
         + "GitHub:\n"
-        + "https://github.com/angelcai1"
+        + "https://github.com/angelcai1")
     }
 })
 
