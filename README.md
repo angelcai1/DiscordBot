@@ -20,6 +20,8 @@ Uses discord's API along with Node.js and JavaScript
 
 ### Angel's Links Bot Response
 
+![image](https://user-images.githubusercontent.com/71116096/164406248-06fc851c-dbe9-4dec-b5bf-749d47b08990.png)
+
 ## SOON TO COME
 
 IDEAS:
