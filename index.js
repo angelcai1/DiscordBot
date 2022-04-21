@@ -15,7 +15,7 @@ client.on('messageCreate', (message) => {
             + "in my room playing video games.")
     }
 
-    if (message.content.toLowerCase() === "Angel's Socials") {
+    if (message.content.toLowerCase() === "angel's socials") {
         message.reply(
           "Instagram:\n"
         + "https://github.com/angelcai1\n"
