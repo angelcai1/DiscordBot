@@ -1,5 +1,10 @@
 # Angel's Discord Bot
 
+## Description
+This is a personal discord bot that will have lots of functionality
+
+## Technical Information
+Uses discord's API along with Node.js and JavaScript
 ## Working functionality
 - /tictactoe - game of tic tac toe vs bot
 - the word ping will respond with pong
